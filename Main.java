@@ -20,7 +20,7 @@ public class Main {
 			System.out.println(str);
 			if(str.equals("")){
 				
-				//bw.newLine();
+				
 				bw.write("HTTP/1.1 200");
 				bw.flush();
 				bw.newLine();
