@@ -25,10 +25,7 @@ public class Main {
 				bw.flush();
 				bw.newLine();
 				bw.write("Content-Length: 1");
-				//bw.write("HTTP/1.1 ");
 				for(int i=1;i<300;i++){
-					//bw.write("1");
-					//bw.flush();
 					Thread.sleep(5000);
 				}
 				
