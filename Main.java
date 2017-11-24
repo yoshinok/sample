@@ -19,8 +19,8 @@ public class Main {
 		while((str=br.readLine())!=null){
 			System.out.println(str);
 			if(str.equals("")){
-				
-				
+
+
 				bw.write("HTTP/1.1 200");
 				bw.flush();
 				bw.newLine();
@@ -28,16 +28,9 @@ public class Main {
 				for(int i=1;i<300;i++){
 					Thread.sleep(5000);
 				}
-				
+
 				bw.newLine();
-				/*bw.write("Content-Length: 3");
-				bw.newLine();
-				bw.newLine();
-				bw.write("aaa");
-				bw.newLine();
-				//bw.newLine();
-				bw.flush();
-				*/
+
 			}
 		}
 	}
